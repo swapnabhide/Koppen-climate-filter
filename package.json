@@ -1,0 +1,27 @@
+{
+  "name": "koppen-climate-filter",
+  "version": "1.0.0",
+  "description": "Ever wondered if you could find a place with perfect weather? Since 'perfect' is subjective and I can't predict how climate change will affect it, here you can find places that had weather you would have loved in 1901-2010",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapnabhide/Koppen-climate-filter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swapnabhide/Koppen-climate-filter/issues"
+  },
+  "homepage": "https://github.com/swapnabhide/Koppen-climate-filter#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2"
+  }
+}
